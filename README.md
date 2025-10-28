@@ -4,14 +4,14 @@ This repository provides tools to compute band-averaged fluxes using the Nancy G
 
 ---
 
-## 📦 Contents
+## Contents
 
 - `cgibands.py`: Compute mean flux within CGI-defined or user-defined wavelength bands.
 - `fnu2flam.py`: Convert flux values from Fν (e.g., Jy or erg/cm²/s/Hz) to Fλ (e.g., W/m²/μm).
 
 ---
 
-## 🛰️ `cgibands.py` Features
+## `cgibands.py` Features
 
 - Use official Roman CGI transmission curves to compute weighted average fluxes.
 - Optionally provide your own custom wavelength bands.
@@ -28,7 +28,7 @@ This repository provides tools to compute band-averaged fluxes using the Nancy G
 
 ---
 
-## 🔄 `fnu2flam.py` Features
+## `fnu2flam.py` Features
 
 - Convert flux from frequency-based units to wavelength-based units.
 - Supports units like `Jy`, `W/m²/Hz`, `erg/cm²/s/Hz`, etc.
@@ -50,14 +50,14 @@ w_out, f_out = convert_fnu_to_flambda(wavelength_um, flux_jy,
 
 ---
 
-## 📁 Filter Data
+## Filter Data
 
 To use the official CGI filter curves:
 Download from [roman.ipac.caltech.edu](https://roman.ipac.caltech.edu/page/additional-coronagraph-instrument-parameters-model-and-data-html#Color_Filter_Curves)
 
 ---
 
-## 🧪 Demo Notebook
+## Demo Notebook
 
 A Jupyter notebook (`cgibands_demo.ipynb`) is available with examples:
 - Using built-in CGI filters
@@ -67,19 +67,19 @@ A Jupyter notebook (`cgibands_demo.ipynb`) is available with examples:
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python ≥ 3.8
 - `numpy`, `matplotlib`, `astropy`, `pandas`
 
 ---
 
-## 📜 License
+## License
 
 MIT License. See `LICENSE.txt`.
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 Zarah Brown – Lunar and Planetary Laboratory, University of Arizona
